@@ -1,0 +1,264 @@
+{
+  "result": {
+    "properties": [
+      {
+        "code": "phase_a_data",
+        "custom_name": "",
+        "dp_id": 101,
+        "time": 1765490089689,
+        "type": "raw",
+        "value": "JgkAAEoKAADeAQAATQ=="
+      },
+      {
+        "code": "phase_b_data",
+        "custom_name": "",
+        "dp_id": 102,
+        "time": 1765490090202,
+        "type": "raw",
+        "value": "/wgAANYCAAA5AAAAIg=="
+      },
+      {
+        "code": "phase_c_data",
+        "custom_name": "",
+        "dp_id": 103,
+        "time": 1765490076377,
+        "type": "raw",
+        "value": "BQkAANoKAAApAgAAVg=="
+      },
+      {
+        "code": "phase_t_data",
+        "custom_name": "",
+        "dp_id": 104,
+        "time": 1765490090631,
+        "type": "raw",
+        "value": "9BcAAH0AAAAy"
+      },
+      {
+        "code": "sub_power",
+        "custom_name": "",
+        "dp_id": 105,
+        "time": 1765490076709,
+        "type": "raw",
+        "value": "EAEAAAAAAjwAAAADAAAAAAQAAAAABQAAAAAGAAAAAAcAAAAACLcBAAAJAAAAAAoAAAAACwAAAAAMAAAAAA0AAAAADgAAAAAPAAAAABAAAAAA"
+      },
+      {
+        "code": "sub_current",
+        "custom_name": "",
+        "dp_id": 106,
+        "time": 1765490086739,
+        "type": "raw",
+        "value": "EAEAAAAAAi8BAAADAAAAAAQAAAAABQAAAAAGAAAAAAcAAAAACMsHAAAJAAAAAAoAAAAACwAAAAAMAAAAAA0AAAAADgAAAAAPAAAAABAAAAAA"
+      },
+      {
+        "code": "sub_phase",
+        "custom_name": "",
+        "dp_id": 107,
+        "time": 1765490087632,
+        "type": "raw",
+        "value": "EAEAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAPABAA"
+      },
+      {
+        "code": "meter_type",
+        "custom_name": "",
+        "dp_id": 108,
+        "time": 1765007312477,
+        "type": "enum",
+        "value": "3_phase"
+      },
+      {
+        "code": "solar_en",
+        "custom_name": "",
+        "dp_id": 109,
+        "time": 1765007314533,
+        "type": "raw",
+        "value": "EAEAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAPABAA"
+      },
+      {
+        "code": "clear_energy",
+        "custom_name": "",
+        "dp_id": 110,
+        "time": 1753794091355,
+        "type": "raw"
+      },
+      {
+        "code": "vol_multi_set",
+        "custom_name": "",
+        "dp_id": 111,
+        "time": 1765007314620,
+        "type": "raw",
+        "value": "EAEKAgoDCgQKBQoGCgcKCAoJCgoKCwoMCg0KDgoPChAK"
+      },
+      {
+        "code": "solar_en_total",
+        "custom_name": "",
+        "dp_id": 112,
+        "time": 1765007312668,
+        "type": "enum",
+        "value": "disable"
+      },
+      {
+        "code": "ct_check",
+        "custom_name": "",
+        "dp_id": 113,
+        "time": 1765007312491,
+        "type": "raw",
+        "value": "/wAAAA=="
+      },
+      {
+        "code": "refresh",
+        "custom_name": "",
+        "dp_id": 114,
+        "time": 1753794091355,
+        "type": "enum",
+        "value": "solar_en"
+      },
+      {
+        "code": "energy_sub1",
+        "custom_name": "",
+        "dp_id": 115,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub2",
+        "custom_name": "",
+        "dp_id": 116,
+        "time": 1765490002034,
+        "type": "value",
+        "value": 33080
+      },
+      {
+        "code": "energy_sub3",
+        "custom_name": "",
+        "dp_id": 117,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub4",
+        "custom_name": "",
+        "dp_id": 118,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub5",
+        "custom_name": "",
+        "dp_id": 119,
+        "time": 1765397630460,
+        "type": "value",
+        "value": 3733
+      },
+      {
+        "code": "energy_sub6",
+        "custom_name": "",
+        "dp_id": 120,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub7",
+        "custom_name": "",
+        "dp_id": 121,
+        "time": 1765193616813,
+        "type": "value",
+        "value": 254
+      },
+      {
+        "code": "energy_sub8",
+        "custom_name": "",
+        "dp_id": 122,
+        "time": 1765490016266,
+        "type": "value",
+        "value": 51701
+      },
+      {
+        "code": "energy_sub9",
+        "custom_name": "",
+        "dp_id": 123,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub10",
+        "custom_name": "",
+        "dp_id": 124,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub11",
+        "custom_name": "",
+        "dp_id": 125,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub12",
+        "custom_name": "",
+        "dp_id": 126,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub13",
+        "custom_name": "",
+        "dp_id": 127,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub14",
+        "custom_name": "",
+        "dp_id": 128,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub15",
+        "custom_name": "",
+        "dp_id": 129,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_sub16",
+        "custom_name": "",
+        "dp_id": 130,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_consumed_total",
+        "custom_name": "",
+        "dp_id": 131,
+        "time": 1765490076584,
+        "type": "value",
+        "value": 344178
+      },
+      {
+        "code": "energy_generate_total",
+        "custom_name": "",
+        "dp_id": 132,
+        "time": 1765007314518,
+        "type": "value",
+        "value": 0
+      }
+    ]
+  },
+  "success": true,
+  "t": 1765490090829,
+  "tid": "04a8a0fdd6dc11f0bfd7de116888fc39"
+}
