@@ -1,8 +1,451 @@
 {
-  "result": {
-    "model": "{\"modelId\":\"fxagf8\",\"services\":[{\"actions\":[],\"code\":\"\",\"description\":\"\",\"events\":[],\"name\":\"默认服务\",\"properties\":[{\"abilityId\":101,\"accessMode\":\"ro\",\"code\":\"phase_a_data\",\"description\":\"\",\"name\":\"A相数据\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":102,\"accessMode\":\"ro\",\"code\":\"phase_b_data\",\"description\":\"\",\"name\":\"B相数据\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":103,\"accessMode\":\"ro\",\"code\":\"phase_c_data\",\"description\":\"\",\"name\":\"C相数据\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":104,\"accessMode\":\"ro\",\"code\":\"phase_t_data\",\"description\":\"\",\"name\":\"合相数据\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":105,\"accessMode\":\"ro\",\"code\":\"sub_power\",\"description\":\"\",\"name\":\"子线路功率\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":106,\"accessMode\":\"ro\",\"code\":\"sub_current\",\"description\":\"\",\"name\":\"子线路电流\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":107,\"accessMode\":\"rw\",\"code\":\"sub_phase\",\"description\":\"\",\"name\":\"子线路相设置\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":108,\"accessMode\":\"ro\",\"code\":\"meter_type\",\"description\":\"\",\"name\":\"测量类型\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"unknow\",\"3_phase\",\"1_phase\",\"1_phase_3_wire\",\"other\"]}},{\"abilityId\":109,\"accessMode\":\"rw\",\"code\":\"solar_en\",\"description\":\"\",\"name\":\"太阳能使能\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":110,\"accessMode\":\"wr\",\"code\":\"clear_energy\",\"description\":\"\",\"name\":\"清除电量\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":111,\"accessMode\":\"rw\",\"code\":\"vol_multi_set\",\"description\":\"只用于2相\",\"name\":\"电压倍数设置\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":112,\"accessMode\":\"rw\",\"code\":\"solar_en_total\",\"description\":\"\",\"name\":\"使能太阳能总开关\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"unknow\",\"disable\",\"enable\"]}},{\"abilityId\":113,\"accessMode\":\"ro\",\"code\":\"ct_check\",\"description\":\"\",\"name\":\"插入CT检测\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":114,\"accessMode\":\"wr\",\"code\":\"refresh\",\"description\":\"\",\"name\":\"刷新\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"solar_en\",\"ct_insert\"]}},{\"abilityId\":115,\"accessMode\":\"ro\",\"code\":\"energy_sub1\",\"description\":\"\",\"name\":\"子线路1电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":116,\"accessMode\":\"ro\",\"code\":\"energy_sub2\",\"description\":\"\",\"name\":\"子线路2电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":117,\"accessMode\":\"ro\",\"code\":\"energy_sub3\",\"description\":\"\",\"name\":\"子线路3电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":118,\"accessMode\":\"ro\",\"code\":\"energy_sub4\",\"description\":\"\",\"name\":\"子线路4电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":119,\"accessMode\":\"ro\",\"code\":\"energy_sub5\",\"description\":\"\",\"name\":\"子线路5电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":120,\"accessMode\":\"ro\",\"code\":\"energy_sub6\",\"description\":\"\",\"name\":\"子线路6电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":121,\"accessMode\":\"ro\",\"code\":\"energy_sub7\",\"description\":\"\",\"name\":\"子线路7电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":122,\"accessMode\":\"ro\",\"code\":\"energy_sub8\",\"description\":\"\",\"name\":\"子线路8电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":123,\"accessMode\":\"ro\",\"code\":\"energy_sub9\",\"description\":\"\",\"name\":\"子线路9电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":124,\"accessMode\":\"ro\",\"code\":\"energy_sub10\",\"description\":\"\",\"name\":\"子线路10电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":125,\"accessMode\":\"ro\",\"code\":\"energy_sub11\",\"description\":\"\",\"name\":\"子线路11电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":126,\"accessMode\":\"ro\",\"code\":\"energy_sub12\",\"description\":\"\",\"name\":\"子线路12电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":127,\"accessMode\":\"ro\",\"code\":\"energy_sub13\",\"description\":\"\",\"name\":\"子线路13电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":128,\"accessMode\":\"ro\",\"code\":\"energy_sub14\",\"description\":\"\",\"name\":\"子线路14电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":129,\"accessMode\":\"ro\",\"code\":\"energy_sub15\",\"description\":\"\",\"name\":\"子线路15电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":130,\"accessMode\":\"ro\",\"code\":\"energy_sub16\",\"description\":\"\",\"name\":\"子线路16电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":131,\"accessMode\":\"ro\",\"code\":\"energy_consumed_total\",\"description\":\"\",\"name\":\"总消耗电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":132,\"accessMode\":\"ro\",\"code\":\"energy_generate_total\",\"description\":\"\",\"name\":\"总产生电量\",\"typeSpec\":{\"type\":\"value\",\"max\":2000000000,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}}]}]}"
-  },
-  "success": true,
-  "t": 1765491006300,
-  "tid": "2652c072d6de11f0907cf2f713bbc069"
+    "modelId": "fxagf8",
+    "services": [
+        {
+            "actions": [],
+            "code": "",
+            "description": "",
+            "events": [],
+            "name": "默认服务",
+            "properties": [
+                {
+                    "abilityId": 101,
+                    "accessMode": "ro",
+                    "code": "phase_a_data",
+                    "description": "",
+                    "name": "A相数据",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 102,
+                    "accessMode": "ro",
+                    "code": "phase_b_data",
+                    "description": "",
+                    "name": "B相数据",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 103,
+                    "accessMode": "ro",
+                    "code": "phase_c_data",
+                    "description": "",
+                    "name": "C相数据",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 104,
+                    "accessMode": "ro",
+                    "code": "phase_t_data",
+                    "description": "",
+                    "name": "合相数据",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 105,
+                    "accessMode": "ro",
+                    "code": "sub_power",
+                    "description": "",
+                    "name": "子线路功率",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 106,
+                    "accessMode": "ro",
+                    "code": "sub_current",
+                    "description": "",
+                    "name": "子线路电流",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 107,
+                    "accessMode": "rw",
+                    "code": "sub_phase",
+                    "description": "",
+                    "name": "子线路相设置",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 108,
+                    "accessMode": "ro",
+                    "code": "meter_type",
+                    "description": "",
+                    "name": "测量类型",
+                    "typeSpec": {
+                        "type": "enum",
+                        "range": [
+                            "unknow",
+                            "3_phase",
+                            "1_phase",
+                            "1_phase_3_wire",
+                            "other"
+                        ]
+                    }
+                },
+                {
+                    "abilityId": 109,
+                    "accessMode": "rw",
+                    "code": "solar_en",
+                    "description": "",
+                    "name": "太阳能使能",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 110,
+                    "accessMode": "wr",
+                    "code": "clear_energy",
+                    "description": "",
+                    "name": "清除电量",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 111,
+                    "accessMode": "rw",
+                    "code": "vol_multi_set",
+                    "description": "只用于2相",
+                    "name": "电压倍数设置",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 112,
+                    "accessMode": "rw",
+                    "code": "solar_en_total",
+                    "description": "",
+                    "name": "使能太阳能总开关",
+                    "typeSpec": {
+                        "type": "enum",
+                        "range": [
+                            "unknow",
+                            "disable",
+                            "enable"
+                        ]
+                    }
+                },
+                {
+                    "abilityId": 113,
+                    "accessMode": "ro",
+                    "code": "ct_check",
+                    "description": "",
+                    "name": "插入CT检测",
+                    "typeSpec": {
+                        "type": "raw",
+                        "maxlen": 128
+                    }
+                },
+                {
+                    "abilityId": 114,
+                    "accessMode": "wr",
+                    "code": "refresh",
+                    "description": "",
+                    "name": "刷新",
+                    "typeSpec": {
+                        "type": "enum",
+                        "range": [
+                            "solar_en",
+                            "ct_insert"
+                        ]
+                    }
+                },
+                {
+                    "abilityId": 115,
+                    "accessMode": "ro",
+                    "code": "energy_sub1",
+                    "description": "",
+                    "name": "子线路1电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 116,
+                    "accessMode": "ro",
+                    "code": "energy_sub2",
+                    "description": "",
+                    "name": "子线路2电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 117,
+                    "accessMode": "ro",
+                    "code": "energy_sub3",
+                    "description": "",
+                    "name": "子线路3电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 118,
+                    "accessMode": "ro",
+                    "code": "energy_sub4",
+                    "description": "",
+                    "name": "子线路4电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 119,
+                    "accessMode": "ro",
+                    "code": "energy_sub5",
+                    "description": "",
+                    "name": "子线路5电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 120,
+                    "accessMode": "ro",
+                    "code": "energy_sub6",
+                    "description": "",
+                    "name": "子线路6电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 121,
+                    "accessMode": "ro",
+                    "code": "energy_sub7",
+                    "description": "",
+                    "name": "子线路7电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 122,
+                    "accessMode": "ro",
+                    "code": "energy_sub8",
+                    "description": "",
+                    "name": "子线路8电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 123,
+                    "accessMode": "ro",
+                    "code": "energy_sub9",
+                    "description": "",
+                    "name": "子线路9电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 124,
+                    "accessMode": "ro",
+                    "code": "energy_sub10",
+                    "description": "",
+                    "name": "子线路10电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 125,
+                    "accessMode": "ro",
+                    "code": "energy_sub11",
+                    "description": "",
+                    "name": "子线路11电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 126,
+                    "accessMode": "ro",
+                    "code": "energy_sub12",
+                    "description": "",
+                    "name": "子线路12电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 127,
+                    "accessMode": "ro",
+                    "code": "energy_sub13",
+                    "description": "",
+                    "name": "子线路13电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 128,
+                    "accessMode": "ro",
+                    "code": "energy_sub14",
+                    "description": "",
+                    "name": "子线路14电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 129,
+                    "accessMode": "ro",
+                    "code": "energy_sub15",
+                    "description": "",
+                    "name": "子线路15电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 130,
+                    "accessMode": "ro",
+                    "code": "energy_sub16",
+                    "description": "",
+                    "name": "子线路16电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 131,
+                    "accessMode": "ro",
+                    "code": "energy_consumed_total",
+                    "description": "",
+                    "name": "总消耗电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                },
+                {
+                    "abilityId": 132,
+                    "accessMode": "ro",
+                    "code": "energy_generate_total",
+                    "description": "",
+                    "name": "总产生电量",
+                    "typeSpec": {
+                        "type": "value",
+                        "max": 2000000000,
+                        "min": 0,
+                        "scale": 2,
+                        "step": 1,
+                        "unit": "kW·h"
+                    }
+                }
+            ]
+        }
+    ]
 }
